@@ -223,7 +223,7 @@ public class CreateJPanel extends javax.swing.JPanel {
     	}else if(!emailTextField.getText().matches("^\\w+@\\w+\\.[a-z]{2,3}$")){
     		JOptionPane.showMessageDialog(null, "Email incorrecto, EJEMPLO VÁLIDO: example@gmail.com ");
     	}else if(!ssnTextField.getText().matches("^\\d{10}$")){
-    		JOptionPane.showMessageDialog(null, "Email incorrecto, EJEMPLO VÁLIDO: example@gmail.com ");
+    		JOptionPane.showMessageDialog(null, "NUSS incorrecto, Tiene que contener 10 cifras");
     	}else {
         person.setImageTxt(picTextPath.getText());
         person.setName(nameTextField.getText());
